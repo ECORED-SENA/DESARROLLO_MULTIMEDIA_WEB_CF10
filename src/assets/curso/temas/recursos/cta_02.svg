@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.955" height="99.541" viewBox="0 0 98.955 99.541">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.076" cy="0.019" r="1.465" gradientTransform="translate(0.001)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f7"/>
+      <stop offset="0.477" stop-color="#f9f9fa"/>
+      <stop offset="0.715" stop-color="#fff"/>
+    </radialGradient>
+    <filter id="Trazado_40937" x="0" y="0.685" width="98.955" height="98.856" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_882717" data-name="Grupo 882717" transform="translate(6.414)">
+    <g id="Grupo_18423" data-name="Grupo 18423" transform="translate(0 0)">
+      <g id="Grupo_18421" data-name="Grupo 18421">
+        <g id="Grupo_18420" data-name="Grupo 18420">
+          <g id="Grupo_18419" data-name="Grupo 18419">
+            <path id="Trazado_40936" data-name="Trazado 40936" d="M279.664,2188.24a42.521,42.521,0,1,1-42.52-42.519A42.52,42.52,0,0,1,279.664,2188.24Z" transform="translate(-194.623 -2145.721)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -6.41, 0)" filter="url(#Trazado_40937)">
+        <path id="Trazado_40937-2" data-name="Trazado 40937" d="M279.432,2187.987a42.52,42.52,0,1,0-42.52,42.521A42.352,42.352,0,0,0,279.432,2187.987Z" transform="translate(-187.98 -2145.47)" fill="url(#radial-gradient)"/>
+      </g>
+      <path id="Trazado_40938" data-name="Trazado 40938" d="M267.371,2186.006a32.456,32.456,0,1,0-32.456,32.456A32.336,32.336,0,0,0,267.371,2186.006Z" transform="translate(-192.266 -2143.346)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="4"/>
+      <g id="Grupo_18422" data-name="Grupo 18422" transform="translate(7.533 23.872)">
+        <path id="Trazado_40939" data-name="Trazado 40939" d="M273.754,2164.488a42.526,42.526,0,0,1-73.209,42.344,42.391,42.391,0,0,0,73.209-42.344Z" transform="translate(-200.545 -2164.488)" fill="#eceef0"/>
+      </g>
+    </g>
+    <g id="Polígono_5" data-name="Polígono 5" transform="translate(59.771 27.876) rotate(90)" fill="none">
+      <path d="M15,0,30,26H0Z" stroke="none"/>
+      <path d="M 15.00000095367432 4.002214431762695 L 3.46281623840332 24 L 26.53718566894531 24 L 15.00000095367432 4.002214431762695 M 15.00000095367432 0 L 30 26 L 1.9073486328125e-06 26 L 15.00000095367432 0 Z" stroke="none" fill="#12263f"/>
+    </g>
+  </g>
+</svg>
