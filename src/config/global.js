@@ -231,7 +231,7 @@ export default {
     {
       termino: 'SEO',
       significado:
-        'SEO, o <em>Search Engine Optimization</em> (Optimización en Motores de Búsqueda), es un conjunto de técnicas y de herramientas que sirven para optimizar tanto las páginas web como las <em>landing pages</em>, para que los buscadores, como Google, puedan leerlas de forma más fácil y rápida. SEO no solo se utiliza para los buscadores, sino también para los usuarios. Es fundamental que cada página sea relevante con el contenido y que estas hablen de forma clara y concreta. (SN, 2012).',
+        '<em>Search Engine Optimization</em> (Optimización en Motores de Búsqueda), es un conjunto de técnicas y de herramientas que sirven para optimizar tanto las páginas web como las <em>landing pages</em>, para que los buscadores, como Google, puedan leerlas de forma más fácil y rápida. SEO no solo se utiliza para los buscadores, sino también para los usuarios. Es fundamental que cada página sea relevante con el contenido y que estas hablen de forma clara y concreta. (SN, 2012).',
     },
   ],
   referencias: [

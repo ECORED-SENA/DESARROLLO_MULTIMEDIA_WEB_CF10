@@ -12,19 +12,19 @@
         figure
           img(src="@/assets/curso/temas/recursos/square_01.svg", alt="alt").img30
       .col
-        p.mb-0 Todos los servicios que ofrece la web se basan en una relación directa entre los servidores remotos que atienden las peticiones que hacen los usuarios o clientes para acceder a una aplicación, sitio o producto multimedia que se encuentra en Internet. Para entender dicha relación, es necesario apropiar los conceptos de servidor y de cliente en el ecosistema de las redes:
+        p.mb-0 Todos los servicios que ofrece la #[em web] se basan en una relación directa entre los servidores remotos que atienden las peticiones que hacen los usuarios o clientes para acceder a una aplicación, sitio o producto multimedia que se encuentra en Internet. Para entender dicha relación, es necesario apropiar los conceptos de servidor y de cliente en el ecosistema de las redes:
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris").mb-5
       .row.justify-content-around(titulo="1. Servidor")
         .col-lg-7.mb-4.mb-lg-0
-          p.mb-0 Es un equipo de cómputo que presta sus servicios a otros equipos que están conectados a él, de manera física o virtual, a través de la red de Internet, donde se alojan sitios web, aplicaciones y archivos que son almacenados sin importar su formato (html, .css, .js, .jpg, etc.).       
+          p.mb-0 Es un equipo de cómputo que presta sus servicios a otros equipos que están conectados a él, de manera física o virtual, a través de la red de Internet, donde se alojan sitios #[em web], aplicaciones y archivos que son almacenados sin importar su formato (html, .css, .js, .jpg, etc.).       
         .col-lg-4.col-8
           figure
             img(src='@/assets/curso/temas/t1/t1_01.svg', alt='')
 
       .row.justify-content-around(titulo="2. Red IP")
         .col-lg-7.mb-4.mb-lg-0
-          p.mb-0 Cada ordenador que está conectado a la red de Internet tiene una dirección IP en la web, ya sea un servidor o un usuario cualquiera, de tal manera que, al establecerse comunicación entre unos y otros, se puedan resolver solicitudes que estos tengan.       
+          p.mb-0 Cada ordenador que está conectado a la red de Internet tiene una dirección IP en la #[em web], ya sea un servidor o un usuario cualquiera, de tal manera que, al establecerse comunicación entre unos y otros, se puedan resolver solicitudes que estos tengan.       
         .col-lg-4.col-8
           figure
             img(src='@/assets/curso/temas/t1/t1_02.svg', alt='')
@@ -38,7 +38,7 @@
 
       .row.justify-content-around(titulo="4. Cliente")
         .col-lg-7.mb-4.mb-lg-0
-          p.mb-0 Es el equipo utilizado por el usuario para conectarse a la red de Internet y hacer peticiones de diferente índole a los servidores remotos que también están conectados al ecosistema de la web. Al establecerse la conexión, los proveedores de Internet asignan al cliente una dirección IP dinámica, es decir, que cambia cada vez que el usuario establece una nueva conexión con el mismo servidor u otro diferente.            
+          p.mb-0 Es el equipo utilizado por el usuario para conectarse a la red de Internet y hacer peticiones de diferente índole a los servidores remotos que también están conectados al ecosistema de la #[em web]. Al establecerse la conexión, los proveedores de Internet asignan al cliente una dirección IP dinámica, es decir, que cambia cada vez que el usuario establece una nueva conexión con el mismo servidor u otro diferente.            
         .col-lg-4.col-8
           figure
             img(src='@/assets/curso/temas/t1/t1_04.svg', alt='')
@@ -59,7 +59,7 @@
 
     .row.justify-content-center
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade")
-        p.mb-0 De acuerdo con lo anterior, el modelo #[span.clr--blue.bold cliente/servidor] es una configuración arquitectónica de elementos, que se lleva a cabo en el entorno de la web. Dichos elementos se componen de equipos o dispositivos que operan los usuarios, equipos servidores con funciones especiales, que prestan servicios a los clientes de manera remota, y redes de Internet que se encargan de establecer la comunicación entre unos y otros respectivamente. Este modelo constituye, entonces, un sistema en el cual se distribuye una infraestructura de elementos, donde los datos parten, hacen un recorrido, se procesan y regresan convertidos en información útil.
+        p.mb-0 De acuerdo con lo anterior, el modelo #[span.clr--blue.bold cliente/servidor] es una configuración arquitectónica de elementos, que se lleva a cabo en el entorno de la #[em web]. Dichos elementos se componen de equipos o dispositivos que operan los usuarios, equipos servidores con funciones especiales, que prestan servicios a los clientes de manera remota, y redes de Internet que se encargan de establecer la comunicación entre unos y otros respectivamente. Este modelo constituye, entonces, un sistema en el cual se distribuye una infraestructura de elementos, donde los datos parten, hacen un recorrido, se procesan y regresan convertidos en información útil.
       .col-lg-4.col-8(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t1/t1_07.svg", alt="alt")
@@ -77,8 +77,8 @@
           .col-lg-6.mb-4.mb-lg-0
             h4  Modelo tradicional o modelo de dos capas
             p En el modelo tradicional, hay dos niveles, comúnmente llamados capas, en los que hay dos equipos de cómputo que realizan una función diferente para el usuario.
-            p  #[span.clr--blue.bold El nivel 1 corresponde al cliente] y está representado por el dispositivo (cliente) que utiliza el usuario para solicitar un servicio a través de la red, que se comunica con el dispositivo (servidor) del nivel 2, el cual recibe la petición, ejecuta un proceso para devolver la respuesta; por ejemplo, cuando se solicita una página web.
-            p.mb-0 La arquitectura física de este sistema es de dos capas, porque se utilizan dos elementos de hardware, que corresponden al PC o el celular y al servidor remoto.        
+            p  #[span.clr--blue.bold El nivel 1 corresponde al cliente] y está representado por el dispositivo (cliente) que utiliza el usuario para solicitar un servicio a través de la red, que se comunica con el dispositivo (servidor) del nivel 2, el cual recibe la petición, ejecuta un proceso para devolver la respuesta; por ejemplo, cuando se solicita una página #[em web].
+            p.mb-0 La arquitectura física de este sistema es de dos capas, porque se utilizan dos elementos de #[em hardware], que corresponden al PC o el celular y al servidor remoto.        
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/t1/t1_08.svg', alt='')
@@ -87,9 +87,9 @@
         .row.justify-content-center
           .col-lg-6.mb-4.mb-lg-0
             h4  Modelo de tres capas 
-            p La arquitectura física de este sistema es de tres capas, porque se utilizan tres componentes de hardware que corresponden al PC o el celular, al servidor web y al servidor BD.
-            p Generalmente, #[span.bold.clr--blue el servidor del nivel 2] presta el servicio de aceptar y resolver las peticiones dadas en la web, a través de enviar a otro servidor el requerimiento de procesar la información solicitada. Este último está en el nivel 3, puesto que es el tercer dispositivo de hardware que interviene en el modelo completo. 
-            p Esto puede suceder, por ejemplo, cuando el usuario diligencia un formulario que debe ser procesado para acceder a un sitio web o para ser aceptado en una plataforma determinada.        
+            p La arquitectura física de este sistema es de tres capas, porque se utilizan tres componentes de #[em hardware] que corresponden al PC o el celular, al servidor #[em web] y al servidor BD.
+            p Generalmente, #[span.bold.clr--blue el servidor del nivel 2] presta el servicio de aceptar y resolver las peticiones dadas en la #[em web], a través de enviar a otro servidor el requerimiento de procesar la información solicitada. Este último está en el nivel 3, puesto que es el tercer dispositivo de #[em hardware] que interviene en el modelo completo. 
+            p Esto puede suceder, por ejemplo, cuando el usuario diligencia un formulario que debe ser procesado para acceder a un sitio #[em web] o para ser aceptado en una plataforma determinada.        
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/t1/t1_09.svg', alt='')
@@ -99,7 +99,7 @@
           .col-lg-6.mb-4.mb-lg-0
             h4  Modelo de cuatro capas 
             p En la figura, se puede observar que hay cuatro tipos de equipos conectados, que cumplen diferentes funciones y roles dentro de la arquitectura del sistema completo, por lo que se le llama modelo de cuatro (4) niveles. 
-            p.mb-0 En este modelo, por ejemplo, si un usuario va a realizar una compra en línea, #[span.bold.clr--blue en el primer nivel], el cliente hace la petición del sitio web, utilizando como programa el navegador del dispositivo; #[span.bold.clr--blue en el segundo nivel], el servidor web recibe la petición y devuelve al cliente el sitio solicitado; #[span.bold.clr--blue en el tercer nivel], el servidor de bases de datos (BD) provee el catálogo de productos para la selección del usuario; y #[span.bold.clr--blue en el cuarto nivel], el servidor de aplicaciones permite ejecutar el servicio de pago en línea para terminar la transacción. 
+            p.mb-0 En este modelo, por ejemplo, si un usuario va a realizar una compra en línea, #[span.bold.clr--blue en el primer nivel], el cliente hace la petición del sitio #[em web], utilizando como programa el navegador del dispositivo; #[span.bold.clr--blue en el segundo nivel], el servidor #[em web] recibe la petición y devuelve al cliente el sitio solicitado; #[span.bold.clr--blue en el tercer nivel], el servidor de bases de datos (BD) provee el catálogo de productos para la selección del usuario; y #[span.bold.clr--blue en el cuarto nivel], el servidor de aplicaciones permite ejecutar el servicio de pago en línea para terminar la transacción. 
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/t1/t1_10.svg', alt='')
@@ -109,7 +109,7 @@
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade")
       h2 1.2 Interacción del modelo cliente/servidor
 
-    p.mb-5(data-aos="fade") Con lo que se ha explicado hasta ahora del modelo cliente/servidor, se puede determinar que, en el funcionamiento del sistema como tal, se produce una intercomunicación de los dispositivos de hardware que intervienen, los cuales requieren de componentes de software para completar el ciclo de petición del cliente. 
+    p.mb-5(data-aos="fade") Con lo que se ha explicado hasta ahora del modelo cliente/servidor, se puede determinar que, en el funcionamiento del sistema como tal, se produce una intercomunicación de los dispositivos de #[em hardware] que intervienen, los cuales requieren de componentes de #[em software] para completar el ciclo de petición del cliente. 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
@@ -117,7 +117,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Para lograr la interacción del lado del cliente, se requiere de un navegador que abra el #[span.bold.clr--blue HTML, CSS y JavaScript], que son los lenguajes de programación básicos que se utilizan para el desarrollo de  #[span.bold.clr--blue sitios web] y, a través de los cuales, se puede establecer contacto con los servidores remotos.
+                p Para lograr la interacción del lado del cliente, se requiere de un navegador que abra el #[span.bold.clr--blue HTML, CSS y JavaScript], que son los lenguajes de programación básicos que se utilizan para el desarrollo de  #[span.bold.clr--blue sitios #[em web]] y, a través de los cuales, se puede establecer contacto con los servidores remotos.
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/t1/t1_11.svg', alt='')
@@ -128,7 +128,7 @@
               figure
                 img(src="@/assets/curso/temas/recursos/square_01.svg", alt="alt").img30
             .col
-              p.mb-0 Del lado del servidor, la interacción se logra cuando en estos dispositivos se incorpora software que procese lenguajes de programación y bases de datos como PHP, MySQL, MongoDB, entre otras. 
+              p.mb-0 Del lado del servidor, la interacción se logra cuando en estos dispositivos se incorpora #[em software] que procese lenguajes de programación y bases de datos como PHP, MySQL, MongoDB, entre otras. 
 
     .row.justify-content-center.mb-5
       .col-lg-6.col-12.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -137,10 +137,10 @@
             img(src="@/assets/curso/temas/t1/t1_12.svg", alt="alt").img350.m-auto        
       .col-lg-6    
         .bg--mint.p-4.mb-4(data-aos="zoom-in")
-          p.mb-0 El servidor ejecuta las acciones necesarias mediante el software que posee, es decir, el sistema operativo Linux y el software de servidor web Apache, el cual interpreta y ejecuta el lenguaje de programación PHP, los cuales se conectan con la base de datos MySQL, realizando un proceso para generar un archivo resultante HTML, CSS y JavaScript, que es el que envían al navegador para devolver el sitio web solicitado por el cliente. 
-        p.mb-0(data-aos="fade") Las combinaciones de las herramientas tecnológicas -servidor web, sistema operativo, lenguaje de programación, base de datos- del lado del servidor, llamadas Stack, pueden ser otras diferentes a las que se muestran en el ejemplo, esto depende de los lenguajes de programación y bases de datos que utiliza la entidad para la prestación de servicios web. 
+          p.mb-0 El servidor ejecuta las acciones necesarias mediante el #[em software] que posee, es decir, el sistema operativo Linux y el #[em software] de servidor #[em web] Apache, el cual interpreta y ejecuta el lenguaje de programación PHP, los cuales se conectan con la base de datos MySQL, realizando un proceso para generar un archivo resultante HTML, CSS y JavaScript, que es el que envían al navegador para devolver el sitio #[em web] solicitado por el cliente. 
+        p.mb-0(data-aos="fade") Las combinaciones de las herramientas tecnológicas -servidor #[em web], sistema operativo, lenguaje de programación, base de datos- del lado del servidor, llamadas Stack, pueden ser otras diferentes a las que se muestran en el ejemplo, esto depende de los lenguajes de programación y bases de datos que utiliza la entidad para la prestación de servicios #[em web]. 
 
-    p.mb-5(data-aos="fade") El proceso anterior muestra la interacción que se lleva a cabo entre #[span.bold.txt--blue cliente y servidor(es)], cuando se hace una solicitud a la web, la cual es un ciclo de desarrollo cliente-servidor-cliente para acceder a las bases de datos, y, una vez resuelta la solicitud, el ciclo se rompe. Lo anterior significa que el ciclo solamente se activa cuando el servidor ejecuta las instrucciones del lenguaje en el que están escritas las páginas web solicitadas por el navegador, es decir, que el cliente nunca puede acceder directamente a las bases de datos de los servidores. 
+    p.mb-5(data-aos="fade") El proceso anterior muestra la interacción que se lleva a cabo entre #[span.bold.txt--blue cliente y servidor(es)], cuando se hace una solicitud a la #[em web], la cual es un ciclo de desarrollo cliente-servidor-cliente para acceder a las bases de datos, y, una vez resuelta la solicitud, el ciclo se rompe. Lo anterior significa que el ciclo solamente se activa cuando el servidor ejecuta las instrucciones del lenguaje en el que están escritas las páginas #[em web] solicitadas por el navegador, es decir, que el cliente nunca puede acceder directamente a las bases de datos de los servidores. 
 
     .row.justify-content-center(data-aos="zoom-in")
       .col-lg-10
@@ -161,16 +161,16 @@
     separador
 
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade")
-      h2 1.3 Funcionamiento del cliente en la #[em web - Frontend]
+      h2 1.3 Funcionamiento del cliente en la #[em web - #[em Frontend]]
 
-    p.mb-5(data-aos="fade") Como se explicó antes, el cliente es un dispositivo de hardware que dispone de herramientas de software para establecer comunicación con el usuario y los servidores de la web. 
+    p.mb-5(data-aos="fade") Como se explicó antes, el cliente es un dispositivo de #[em hardware] que dispone de herramientas de #[em software] para establecer comunicación con el usuario y los servidores de la #[em web]. 
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-10
         .cajon.cjn--grayBlue.p-4.mb-0
-          p.mb-0 Para que el cliente pueda iniciar un ciclo de interacción con la web, debe poseer un navegador, dentro del cual se ejecuten lenguajes de código que no solo configuren la apariencia de lo que el usuario ve en la interfaz (pantalla), sino que realice peticiones de servicios a los equipos remotos en la red, y a esta forma de funcionamiento del cliente se le llama #[bold #[em Frontend]].
+          p.mb-0 Para que el cliente pueda iniciar un ciclo de interacción con la #[em web], debe poseer un navegador, dentro del cual se ejecuten lenguajes de código que no solo configuren la apariencia de lo que el usuario ve en la interfaz (pantalla), sino que realice peticiones de servicios a los equipos remotos en la red, y a esta forma de funcionamiento del cliente se le llama #[bold #[em Frontend]].
 
-    p.bold A continuación, podrá observar un video explicativo sobre Backend y Frontend
+    p.bold A continuación, podrá observar un video explicativo sobre #[em Backend] y #[em Frontend]
 
     figure.mb-5
       .video
@@ -183,7 +183,7 @@
             img(src="@/assets/curso/temas/t1/t1_13.svg", alt="alt").img350.m-auto 
       .col-lg-7
         .bg--blue.p-4
-          p.mb-0 El #[em Frontend] es entonces la forma de funcionamiento del cliente dentro del ciclo de interacción cliente-servidor-cliente, y se lleva a cabo en el navegador en el que se ejecutan el lenguaje de etiquetas HTML, para estructurar y organizar el contenido de la web, el lenguaje de código de estilo CSS, para darle el formato visual al contenido, y el lenguaje de programación JavaScript, que contiene los scripts que, al ser activados a través de una petición, conectan al cliente con el servidor.
+          p.mb-0 El #[em Frontend] es entonces la forma de funcionamiento del cliente dentro del ciclo de interacción cliente-servidor-cliente, y se lleva a cabo en el navegador en el que se ejecutan el lenguaje de etiquetas HTML, para estructurar y organizar el contenido de la #[em web], el lenguaje de código de estilo CSS, para darle el formato visual al contenido, y el lenguaje de programación JavaScript, que contiene los scripts que, al ser activados a través de una petición, conectan al cliente con el servidor.
 
     .row.mb-5
       .col-auto
@@ -197,7 +197,7 @@
         .row.justify-content-around.p-4
           .col-lg-6.mb-4.mb-lg-0             
             h4 Método GET
-            p Este método es usado cuando el usuario debe diligenciar algún tipo de formato con datos solicitados por el sitio web, los cuales son enviados a un servidor a través del navegador por el protocolo http. 
+            p Este método es usado cuando el usuario debe diligenciar algún tipo de formato con datos solicitados por el sitio #[em web], los cuales son enviados a un servidor a través del navegador por el protocolo http. 
             p.mb-0 Estos datos deben ser procesados y devueltos como respuesta al cliente.
           .col-lg-6
             figure
@@ -206,7 +206,7 @@
         .row.justify-content-around.p-4
           .col-lg-6.mb-4.mb-lg-0             
             h4 Método GET
-            p En la figura, se observa que en el sitio web se solicita llenar unos datos de contacto, que consisten en el nombre, mail, objeto de la comunicación y el mensaje o tipo de información que se requiera; entonces la línea de código HTML que se debería escribir sería:
+            p En la figura, se observa que en el sitio #[em web] se solicita llenar unos datos de contacto, que consisten en el nombre, mail, objeto de la comunicación y el mensaje o tipo de información que se requiera; entonces la línea de código HTML que se debería escribir sería:
             p #[strong &lt;form action =www.lei.com/contact method =”get”&gt;]
 
             p.mb-0 Esta etiqueta indica que, cuando un usuario del sitio www.lei.com/contact necesite contactar al proveedor, este debe obtener sus datos, o “get”, cuando se haga click en #[em SEND MESSAGE.]
@@ -217,7 +217,7 @@
         .row.justify-content-around.p-4
           .col-lg-6.mb-4.mb-lg-0             
             h4 Método POST
-            p Este método es usado cuando el usuario debe ingresar datos en el sitio web que no deben ser visualizados en la dirección URL del navegador que esté utilizando, ya que serían vistos en cualquier servidor y su privacidad sería vulnerada.  
+            p Este método es usado cuando el usuario debe ingresar datos en el sitio #[em web] que no deben ser visualizados en la dirección URL del navegador que esté utilizando, ya que serían vistos en cualquier servidor y su privacidad sería vulnerada.  
             p.mb-0 En la figura se observan los datos que debe ingresar un usuario para registrarse en una cuenta. Entre los datos que se piden, se encuentra el diligenciamiento de una contraseña, la cual no debe ser visualizada por ningún servidor.
 
           .col-lg-6
@@ -261,8 +261,8 @@
           figure
             img(src='@/assets/curso/temas/t1/t1_18.png', alt='')
         .col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade")
-          p El servidor web es un dispositivo de #[em hardware] que dispone de herramientas de #[em software] para establecer comunicación con el cliente y las bases de datos de la web. Para que el servidor pueda seguir con el ciclo de interacción que ha iniciado el cliente en la web, requiere de #[em software] compuesto por lenguajes de código que procesen los datos enviados y que se conecte con las bases de datos para devolver la respuesta a la petición. A esta forma de funcionamiento del servidor se le llama #[em #[strong Backend]]. 
-          p.mb-0 El #[em #[strong Backend]] es entonces la forma de funcionamiento del servidor web dentro del ciclo de interacción cliente-servidor-cliente, en el que se lleva a cabo el procesamiento de los datos que recibe utilizando lenguajes de código (Java, PHP, Python y Node Js, entre los más conocidos), para conectar al cliente con las bases datos que solicita. 
+          p El servidor #[em web] es un dispositivo de #[em hardware] que dispone de herramientas de #[em software] para establecer comunicación con el cliente y las bases de datos de la web. Para que el servidor pueda seguir con el ciclo de interacción que ha iniciado el cliente en la web, requiere de #[em software] compuesto por lenguajes de código que procesen los datos enviados y que se conecte con las bases de datos para devolver la respuesta a la petición. A esta forma de funcionamiento del servidor se le llama #[em #[strong Backend]]. 
+          p.mb-0 El #[em #[strong Backend]] es entonces la forma de funcionamiento del servidor #[em web] dentro del ciclo de interacción cliente-servidor-cliente, en el que se lleva a cabo el procesamiento de los datos que recibe utilizando lenguajes de código (Java, PHP, Python y Node Js, entre los más conocidos), para conectar al cliente con las bases datos que solicita. 
 
         .col-lg-10.order-3.pt-5(data-aos="fade")
           .bg--blue02.p-4
@@ -282,8 +282,8 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h3.mb-1 Para profundizar en los conceptos Frontend y Backend:
-                      p.mb-0 Lectura: Modelo de procesos para el desarrollo de Front-end de Aplicaciones web
+                      h3.mb-1 Para profundizar en los conceptos #[em Frontend] y #[em Backend]
+                      p.mb-0  Modelo de procesos para el desarrollo de #[em Frontend] de aplicaciones #[em web]
                     .col-sm-auto
                       a.boton.color-acento-botones(:href="obtenerLink('/downloads/1245_articulo-4310-1-10-20170329.pdf')" target="_blank")
                         span.clr--base Descargar 
@@ -292,15 +292,15 @@
       separador
 
     #t_1_5.titulo-segundo.color-acento-botones(data-aos="fade")
-      h2 1.5 Integración del frontend y el backend
+      h2 1.5 Integración del #[em Frontend] y el #[em Backend]
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
-        p(data-aos="fade") La integración entre el #[em #[strong frontend]] y el #[em #[strong backend]] se da cuando se establece la comunicación entre las tecnologías del lado del cliente (HTML, CSS, JavaScript) y las tecnologías del lado del servidor (lenguajes de programación, bases de datos, servidor web). Las primeras se llevan a cabo en el navegador y las segundas, en el servidor, y para que se comuniquen se utilizan aplicaciones que actúan como intermediarias entre unos y otros. A estas aplicaciones se les conoce como API (Application Programming Interfaces) o Interfaz de Programación de Aplicaciones. 
+        p(data-aos="fade") La integración entre el #[em #[strong frontend]] y el #[em #[strong backend]] se da cuando se establece la comunicación entre las tecnologías del lado del cliente (HTML, CSS, JavaScript) y las tecnologías del lado del servidor (lenguajes de programación, bases de datos, servidor #[em web]). Las primeras se llevan a cabo en el navegador y las segundas, en el servidor, y para que se comuniquen se utilizan aplicaciones que actúan como intermediarias entre unos y otros. A estas aplicaciones se les conoce como API (Application Programming Interfaces) o Interfaz de Programación de Aplicaciones. 
         
         .bg--paleYellow.p-4(data-aos="zoom-in")
           p.bold La API entonces es una interfaz de comunicación entre aplicaciones que requieren compartir datos. 
-          p.mb-0 Un ejemplo de API es la plataforma de pago PayPal, la cual permite conectar la tienda online con las entidades financieras, para recibirle el pago al usuario. En vez de que cada proveedor desarrolle su propia pasarela de pagos, puede utilizar la que ya está creada, pagando los derechos de uso y ahorrando tiempo y dinero de desarrollo.
+          p.mb-0 Un ejemplo de API es la plataforma de pago PayPal, la cual permite conectar la tienda #[em online] con las entidades financieras, para recibirle el pago al usuario. En vez de que cada proveedor desarrolle su propia pasarela de pagos, puede utilizar la que ya está creada, pagando los derechos de uso y ahorrando tiempo y dinero de desarrollo.
 
       .col-lg-6.col-12(data-aos="zoom-in")
         .bg--blue.hg-100.p-4.p-lg-0
@@ -313,7 +313,7 @@
       SlyderA(tipo="b")
         .row.justify-content-around.p-4
           .col-lg-6.mb-4.mb-lg-0             
-            h4 Locales:
+            h4 Locales
             p Esta API se encuentra en el mismo entorno donde se está ejecutando la aplicación. 
             p.mb-0 Lo anterior significa que la API no requiere los servicios de un servidor remoto, ya que en el mismo lugar de almacenamiento se encuentran los servicios que requiere para ser activada. 
           .col-lg-6
@@ -329,15 +329,15 @@
 
         .row.justify-content-around.p-4
           .col-lg-6.mb-4.mb-lg-0     
-            h4 Remotas:        
-            p Esta API requiere de los servicios de un servidor remoto, que puede estar en cualquier parte del mundo; por ello, debe establecer conexión con la web, utilizando protocolos como el llamado REST o Representación de Transferencia de Estado, basado en HTTP y URI o Identificador de Recurso Uniforme. 
+            h4 Remotas    
+            p Esta API requiere de los servicios de un servidor remoto, que puede estar en cualquier parte del mundo; por ello, debe establecer conexión con la #[em web], utilizando protocolos como el llamado REST o Representación de Transferencia de Estado, basado en HTTP y URI o Identificador de Recurso Uniforme. 
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/t1/t1_23.svg', alt='')
 
         .row.justify-content-around.p-4
           .col-lg-6.mb-4.mb-lg-0                  
-            p.mb-0 En la imagen, aparece el tipo de error que un usuario observa cuando se dirige a un sitio web que no es encontrado por el servidor. Esto suele suceder con frecuencia y las API REST prestan el servicio de enviar al Frontend el mensaje “ERROR 404”, indicando que no existe el recurso, de acuerdo con los procesos de búsqueda en las bases de datos que hizo el Backend.
+            p.mb-0 En la imagen, aparece el tipo de error que un usuario observa cuando se dirige a un sitio #[em web] que no es encontrado por el servidor. Esto suele suceder con frecuencia y las API REST prestan el servicio de enviar al #[em Frontend] el mensaje “ERROR 404”, indicando que no existe el recurso, de acuerdo con los procesos de búsqueda en las bases de datos que hizo el #[em Backend].
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/t1/t1_24.svg', alt='')     
