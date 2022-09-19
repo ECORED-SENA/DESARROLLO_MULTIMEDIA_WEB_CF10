@@ -494,7 +494,7 @@
             li 
               .lista-ol--cuadro__vineta.brad_circle.bg--orange
                 span A
-              | En la barra de herramientas del administrador WordPress, seleccionar #[em plugins] – dar añadir.
+              | En la barra de herramientas del administrador WordPress, seleccionar #[em.ms-2 plugins] – dar añadir.
             li 
               .lista-ol--cuadro__vineta.brad_circle.bg--orange
                 span B

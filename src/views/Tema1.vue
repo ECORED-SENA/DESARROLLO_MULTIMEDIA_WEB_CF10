@@ -261,7 +261,7 @@
           figure
             img(src='@/assets/curso/temas/t1/t1_18.png', alt='')
         .col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade")
-          p El servidor #[em web] es un dispositivo de #[em hardware] que dispone de herramientas de #[em software] para establecer comunicación con el cliente y las bases de datos de la web. Para que el servidor pueda seguir con el ciclo de interacción que ha iniciado el cliente en la web, requiere de #[em software] compuesto por lenguajes de código que procesen los datos enviados y que se conecte con las bases de datos para devolver la respuesta a la petición. A esta forma de funcionamiento del servidor se le llama #[em #[strong Backend]]. 
+          p El servidor #[em web] es un dispositivo de #[em hardware] que dispone de herramientas de #[em software] para establecer comunicación con el cliente y las bases de datos de la #[em web]. Para que el servidor pueda seguir con el ciclo de interacción que ha iniciado el cliente en la #[em web], requiere de #[em software] compuesto por lenguajes de código que procesen los datos enviados y que se conecte con las bases de datos para devolver la respuesta a la petición. A esta forma de funcionamiento del servidor se le llama #[em #[strong Backend]]. 
           p.mb-0 El #[em #[strong Backend]] es entonces la forma de funcionamiento del servidor #[em web] dentro del ciclo de interacción cliente-servidor-cliente, en el que se lleva a cabo el procesamiento de los datos que recibe utilizando lenguajes de código (Java, PHP, Python y Node Js, entre los más conocidos), para conectar al cliente con las bases datos que solicita. 
 
         .col-lg-10.order-3.pt-5(data-aos="fade")
