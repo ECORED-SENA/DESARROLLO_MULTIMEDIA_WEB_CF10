@@ -449,8 +449,8 @@
 
           figure.mb-5
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/toPJQ6Lt8_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              
           p.mb-5 Una vez instalado WordPress, se puede hacer uso de todas sus herramientas, como, por ejemplo, escoger una plantilla de cualquier categoría de la lista para la creación del sitio #[em web], incluyendo comercio electrónico, noticias, negocios, finanzas, educación, deportes, y fotografía, entre otras. Es importante definir el objetivo del sitio para que los resultados de utilizar estas herramientas sean realmente efectivos.
 
           .row.justify-content-center.mb-5
