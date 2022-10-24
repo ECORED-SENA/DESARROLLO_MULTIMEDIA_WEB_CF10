@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-auto.d-none.d-lg-flex
         figure
           img(src="@/assets/curso/temas/recursos/rectangle_01.svg", alt="alt").img90
@@ -20,7 +20,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/W08KLf-blro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mb-0 Para la elaboración de este componente, se abordaron varios autores conocidos en #[span.clr--blue.bold integración de componentes del proyecto multimedia], de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos del #[span.clr--blue.bold desarrollo Multimedia y #[em web].]
+    p(data-aos="fade").mb-0 Para la elaboración de este componente, se abordaron varios autores conocidos en #[span.clr--blue.bold integración de componentes del proyecto multimedia], de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos del #[span.clr--blue.bold desarrollo Multimedia y #[em web].]
     
 </template>
 

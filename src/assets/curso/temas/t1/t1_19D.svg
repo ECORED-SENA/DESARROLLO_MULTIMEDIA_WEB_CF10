@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="265.35" height="182.45" viewBox="0 0 265.35 182.45">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_298375" data-name="Rectángulo 298375" width="112.483" height="126.265" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_890303" data-name="Grupo 890303" transform="translate(6463 4224)">
+    <g id="Grupo_890299" data-name="Grupo 890299" transform="translate(-6387 -4196)">
+      <g id="Grupo_887850" data-name="Grupo 887850" clip-path="url(#clip-path)">
+        <path id="Trazado_602096" data-name="Trazado 602096" d="M0,222.145v25.521c0,8.092,25.18,14.651,56.241,14.651s56.241-6.559,56.241-14.651V222.145Z" transform="translate(0 -136.052)" fill="#1565c0"/>
+        <path id="Trazado_602097" data-name="Trazado 602097" d="M112.483,198.651c0,8.092-25.18,14.651-56.241,14.651S0,206.743,0,198.651,25.18,184,56.241,184s56.241,6.559,56.241,14.651" transform="translate(0 -112.69)" fill="#8eb7e5"/>
+        <path id="Trazado_602098" data-name="Trazado 602098" d="M10.856,151.668V175.28c0,7.486,23.3,13.555,52.034,13.555s52.035-6.069,52.035-13.555V151.668Z" transform="translate(-6.649 -92.888)" fill="#344954"/>
+        <path id="Trazado_602099" data-name="Trazado 602099" d="M0,130.145v25.521c0,8.092,25.18,14.651,56.241,14.651s56.241-6.559,56.241-14.651V130.145Z" transform="translate(0 -79.707)" fill="#1565c0"/>
+        <path id="Trazado_602100" data-name="Trazado 602100" d="M112.483,106.651c0,8.092-25.18,14.651-56.241,14.651S0,114.743,0,106.651,25.18,92,56.241,92s56.241,6.559,56.241,14.651" transform="translate(0 -56.345)" fill="#8eb7e5"/>
+        <path id="Trazado_602101" data-name="Trazado 602101" d="M10.856,59.668V83.28c0,7.486,23.3,13.555,52.034,13.555s52.035-6.069,52.035-13.555V59.668Z" transform="translate(-6.649 -36.543)" fill="#344954"/>
+        <path id="Trazado_602102" data-name="Trazado 602102" d="M0,38.145V63.666c0,8.092,25.18,14.651,56.241,14.651s56.241-6.559,56.241-14.651V38.145Z" transform="translate(0 -23.362)" fill="#1565c0"/>
+        <path id="Trazado_602103" data-name="Trazado 602103" d="M112.483,14.651c0,8.092-25.18,14.651-56.241,14.651S0,22.743,0,14.651,25.18,0,56.241,0s56.241,6.559,56.241,14.651" fill="#8eb7e5"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_301440" data-name="Rectángulo 301440" width="265.35" height="182.45" transform="translate(-6463 -4224)" fill="none"/>
+  </g>
+</svg>

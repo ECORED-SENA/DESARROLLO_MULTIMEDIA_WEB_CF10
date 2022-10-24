@@ -86,7 +86,7 @@
 
     .row.mb-4(data-aos="fade")
       .col-auto
-        .custom-H3 Formatos de Imagen 
+        p.custom-H3 Formatos de Imagen 
 
     p.mb-5(data-aos="fade") Reconozca cuáles son los formatos de imagen:
 
@@ -127,7 +127,7 @@
 
     .row.mb-4(data-aos="fade")
       .col-auto
-        .custom-H3 Formatos de audio
+        p.custom-H3 Formatos de audio
 
     .crd.slyderBg_01.brd--rad_02.p-3.mb-5
       SlyderA(tipo="b")
@@ -173,7 +173,7 @@
 
     .row.mb-4(data-aos="fade")
       .col-auto
-        .custom-H3 Formatos de video
+        p.custom-H3 Formatos de video
 
     p(data-aos="fade").mb-5 Ahora puede revisar los formatos de video que se utilizan para este fin:
 
@@ -216,7 +216,7 @@
 
     p.bold.mb-5 Explore algunas plataformas que permiten integrar proyectos multimedia.
 
-    TabsC.color-secundario
+    TabsC.color-acento-botones
       .py-3.py-md-4(titulo="Plataformas")
         .row.justify-content-center
           .col-lg-6.col-10.order-2.order-lg-1
@@ -270,21 +270,21 @@
 
     .row.mb-4(data-aos="fade")
       .col-auto
-        .custom-H3 Gestores de contenido (CMS)
+        p.custom-H3 Gestores de contenido (CMS)
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-6.col-12.mb-4.mb-lg-0(data-aos="zoom-in")
         .bg--blue02.hg-100.p-4.p-lg-0
           figure.vh-50
             img(src="@/assets/curso/temas/t2/t2_18.svg", alt="alt").img350.m-auto        
       .col-lg-6(data-aos="zoom-in")       
-        .bg--blue.hg-100.p-4.mb-4
+        .bg--blue.hg-100.p-4
           p Un CMS, siglas en inglés que traducen #[em Content Management System], sistema de gestión de contenidos, es un programa desarrollado para que cualquier usuario pueda administrar y gestionar contenidos de un sitio #[em web], con facilidad y sin conocimientos de programación; para ello, existen CMS de código abierto, es decir, para programar de manera gratuita, y otros con licencia de pago. 
           p.mb-0 Un CMS permite administrar y gestionar contenidos en un medio digital o en el entorno de la #[em web], creando, clasificando o editando información, ya sea en texto, imagen o video. 
 
     p(data-aos="fade").mb-5 En la figura, se observan las funcionalidades que puede administrar un CMS, como escribir líneas de código HTML, CSS o JavaScript, dado que es de código abierto #[em (open-source)], hacer uso de los servicios de la #[em web] para incorporar elementos visuales, o enlazar sitios #[em web] o un dominio requerido, incorporar archivos PDF, gestionar los datos para el análisis de los usuarios y también elaborar y gestionar contenidos. Dentro de los CMS más utilizados, se encuentra WordPress y Drupal, cuya característica principal, además de todas las anteriores, es que son de fácil configuración para diseños personalizados.
 
-    .bg--mint.p-4.mb-5(data-aos="zoom-in")
+    .bg--mint.p-4.mb-4(data-aos="zoom-in")
       .row.justify-content-center
         .col-lg-8.order-2.order-lg-1
           p.bold Características claves a la hora de definir un CMS:
@@ -370,7 +370,7 @@
           .bg--blue02.brad_02.p-4.mb-4(data-aos="fade")            
             PasosB.color-secundario
               .row(titulo="Acceda al autoinstalador").px-0.px-lg-5
-                .col-lg-6.mb-4.mb-md-0
+                .col-lg-6.mb-5.mb-lg-0
                   .bg--blue.p-4
                     p.mb-0 Abra el panel de control de #[em hosting] y busque el instalador automático en la sección Sitio #[em web]. 
                   .row
@@ -385,7 +385,7 @@
                                   
 
               .row(titulo="Localice Joomla CMS").px-0.px-lg-5
-                .col-lg-6.mb-4.mb-md-0
+                .col-lg-6.mb-5.mb-lg-0
                   .bg--blue.p-4
                     p.mb-0 Se visualiza una lista de los CMS (#[em scripts]) más conocidos y se selecciona Joomla de la lista, para continuar.   
                   .row
@@ -400,12 +400,12 @@
               
 
               .row(titulo="Ejecute el asistente de configuración inicial").px-0.px-lg-5
-                .col-lg-6.mb-4.mb-md-0
+                .col-lg-6.mb-5.mb-lg-0
                   .bg--blue.p-4
                     p.mb-0 Se debe completar la configuración básica, como la URL de instalación y el idioma; también, se debe asegurar de escribir el #[em email], nombre de usuario y contraseña del administrador. Luego, se hace clic en el botón verde de Instalar, como se muestra en la imagen siguiente.       
                   .row
                     .col-auto
-                      a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
+                      a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
                         span.clr--base Ampliar
                         i.clr--base.fas.fa-search-plus
                         .indicador--click(v-if="mostrarIndicador")                           
@@ -454,7 +454,7 @@
           p.mb-5 Una vez instalado WordPress, se puede hacer uso de todas sus herramientas, como, por ejemplo, escoger una plantilla de cualquier categoría de la lista para la creación del sitio #[em web], incluyendo comercio electrónico, noticias, negocios, finanzas, educación, deportes, y fotografía, entre otras. Es importante definir el objetivo del sitio para que los resultados de utilizar estas herramientas sean realmente efectivos.
 
           .row.justify-content-center.mb-5
-            .col-lg-8  
+            .col-lg-8.mb-4.mb-lg-0  
               p Al momento de definir la plantilla, se añade y se instalará el tema en WordPress; posteriormente, se va a visualizar la plantilla, su forma, color, tipografías, imágenes, menús, etc. WordPress posee herramientas para la edición de la plantilla escogida, donde se incorporan los textos, las imágenes (logo, colores, fotografías), tipografías, contactos, redes sociales y toda aquella información que se crea importante para el proyecto, como se observa en la siguiente figura.
               .row
                 .col-auto
@@ -471,20 +471,20 @@
                 img(src="@/assets/curso/temas/t2/t2_27.jpg", alt="alt")
 
           .row.justify-content-center.mb-5
-            .col-lg-4.col-8
+            .col-lg-4.col-8.order-2.order-lg-1
               figure
                 img(src="@/assets/curso/temas/t2/t2_28.jpg", alt="alt")
-            .col-lg-8  
+            .col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0
               p Una de las herramientas importantes de los CMS son los #[em Plugin], o #[em Plug-in], cuyo significado en la lengua inglesa es “inserción”, y es aquella aplicación que añade una funcionalidad adicional o una nueva característica al #[em software]. En nuestro idioma, por lo tanto, puede nombrarse al plugin como un complemento que se añade a una aplicación existente para ampliarla. 
 
               p Existen más de 50.000 #[em plugins] gratuitos en WordPress, para añadir todo tipo de funcionalidades, pero también se pueden adquirir #[em plugins] de pago, todo queda a elección del cliente.
               .row
                 .col-auto
-                  a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
+                  a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
                     span.clr--base Ampliar
                     i.clr--base.fas.fa-search-plus
                     .indicador--click(v-if="mostrarIndicador")
-              ModalA(:abrir-modal.sync="modal4")
+              ModalA(:abrir-modal.sync="modal5")
                 figure
                   img(src="@/assets/curso/temas/t2/t2_28.jpg", alt="alt")
 
@@ -506,16 +506,16 @@
 
           p Después de activar el plugin, se deberá comprobar si se necesita realizar algún ajuste, o si el plugin viene ya configurado para ser utilizado sin necesidad de modificar algún parámetro.    
 
-    .bg--blue.p-4.mb-5
-      .row.justify-content-center.mb-5
-        .col-lg-11          
-          .row.justify-content-center.mb-4.pt-4
-            .col-lg-8
+    .bg--blue.p-5.mb-4
+      .row.justify-content-center.mb-4
+        .col-lg-12        
+          .row.justify-content-center.align-items-center.pt-4
+            .col
               h5(data-aos="fade") Drupal
-              p(data-aos="fade") Drupal es un CMS o sistema  de gestión de contenidos, libre, modular, multipropósito y muy configurable, que permite publicar artículos, imágenes y archivos, y que también ofrece la posibilidad de otros servicios añadidos. Incluye la creación y administración de foros, encuestas, #[em blogs], administración de usuarios, permisos y otras características. Drupal es un CMS muy flexible para ser utilizado por diseñadores #[em web] y usuarios con conocimientos técnicos avanzados.
-            .col-lg-4.col-6(data-aos="zoom-in")
+              p.mb-0(data-aos="fade") Drupal es un CMS o sistema  de gestión de contenidos, libre, modular, multipropósito y muy configurable, que permite publicar artículos, imágenes y archivos, y que también ofrece la posibilidad de otros servicios añadidos. Incluye la creación y administración de foros, encuestas, #[em blogs], administración de usuarios, permisos y otras características. Drupal es un CMS muy flexible para ser utilizado por diseñadores #[em web] y usuarios con conocimientos técnicos avanzados.
+            .col-lg-auto(data-aos="zoom-in")
               figure
-                img(src="@/assets/curso/temas/t2/t2_29.png", alt="alt")
+                img(src="@/assets/curso/temas/t2/t2_29.png", alt="alt").img250.m-auto
 
       p(data-aos="fade") Aunque es un CMS más segmentado y con una comunidad más pequeña que la de WordPress u otras tecnologías, Drupal permite crear proyectos #[em web] complejos, con funcionalidades muy específicas, que reciben grandes cantidades de tráfico y procesan muchos datos. Drupal está muy enfocado a usuarios avanzados y programadores. Lo suelen utilizar grandes empresas que quieren una tecnología muy potente. 
 
@@ -545,7 +545,7 @@
                 p.mb-0 Se abrirá la interfaz del gestor de instalación. Hacer clic en #[em install now] (instalar ahora). 
               .row
                 .col-auto
-                  a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
+                  a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
                     span.clr--base Ampliar
                     i.clr--base.fas.fa-search-plus
                     .indicador--click(v-if="mostrarIndicador")          
@@ -553,11 +553,11 @@
               figure
                 img(src="@/assets/curso/temas/t2/t2_30.png", alt="alt")
 
-          .row(titulo="Acceda al autoinstalador").px-0.px-lg-5
+          .row(titulo="Acceda al autoinstalador").px-0.px-lg-5.pb-4
             .col-lg-6.mb-4.mb-md-0
-              .bg--blue.p-4
+              .bg--blue.p-lg-4.p-3
                 p.bold Se solicitará llenar un formulario de instalación:
-                ul.fa-ul
+                ul.fa-ul.mb-0
                   li
                     i.fa-li.fas.fa-check.clr--orange
                     | Seleccionar la versión a instalar: por defecto se muestra la última versión estable. 
@@ -570,7 +570,7 @@
                   li
                     i.fa-li.fas.fa-check.clr--orange
                     | Mantener el directorio predeterminado. 
-                  li
+                  li.mb-0
                     i.fa-li.fas.fa-check.clr--orange
                     | Para terminar, hacer clic en Instalar.                        
             .col-md-6
@@ -578,7 +578,7 @@
                 img(src="@/assets/curso/temas/t2/t2_31.jpg", alt="alt")
               .row
                 .col-auto
-                  a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
+                  a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
                     span.clr--base Ampliar
                     i.clr--base.fas.fa-search-plus
                     .indicador--click(v-if="mostrarIndicador")
@@ -593,7 +593,7 @@
                 img(src="@/assets/curso/temas/t2/t2_32.jpg", alt="alt")
               .row
                 .col-auto
-                  a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
+                  a.boton.color-acento-botones.indicador__container(@click="modal8 = true")
                     span.clr--base Ampliar
                     i.clr--base.fas.fa-search-plus
                     .indicador--click(v-if="mostrarIndicador")
@@ -609,22 +609,23 @@
                 img(src="@/assets/curso/temas/t2/t2_33.jpg", alt="alt")
               .row
                 .col-auto
-                  a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
+                  a.boton.color-acento-botones.indicador__container(@click="modal9 = true")
                     span.clr--base Ampliar
                     i.clr--base.fas.fa-search-plus
                     .indicador--click(v-if="mostrarIndicador")
 
 
-        ModalA(:abrir-modal.sync="modal5")
-          figure
-            img(src="@/assets/curso/temas/t2/t2_30.png", alt="alt")
+        
         ModalA(:abrir-modal.sync="modal6")
           figure
-            img(src="@/assets/curso/temas/t2/t2_31.jpg", alt="alt")          
+            img(src="@/assets/curso/temas/t2/t2_30.png", alt="alt")          
         ModalA(:abrir-modal.sync="modal7")
           figure
+            img(src="@/assets/curso/temas/t2/t2_31.jpg", alt="alt")          
+        ModalA(:abrir-modal.sync="modal8")
+          figure
             img(src="@/assets/curso/temas/t2/t2_32.jpg", alt="alt")          
-        ModalA(:abrir-modal.sync="modal7")
+        ModalA(:abrir-modal.sync="modal9")
           figure
             img(src="@/assets/curso/temas/t2/t2_33.jpg", alt="alt")          
 
@@ -647,6 +648,7 @@ export default {
     modal6: false,
     modal7: false,
     modal8: false,
+    modal9: false,
   }),
   mounted() {
     this.$nextTick(() => {

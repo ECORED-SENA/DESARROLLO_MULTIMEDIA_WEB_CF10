@@ -7,14 +7,14 @@
         span 1
       h1 Fundamentos de la arquitectura cliente/servidor 
 
-    .row.mb-5(data-aos="fade")
+    .row.mb-5(data-aos="fade-left")
       .col-auto.d-none.d-lg-flex
         figure
           img(src="@/assets/curso/temas/recursos/square_01.svg", alt="alt").img30
       .col
         p.mb-0 Todos los servicios que ofrece la #[em web] se basan en una relación directa entre los servidores remotos que atienden las peticiones que hacen los usuarios o clientes para acceder a una aplicación, sitio o producto multimedia que se encuentra en Internet. Para entender dicha relación, es necesario apropiar los conceptos de servidor y de cliente en el ecosistema de las redes:
 
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris").mb-5
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in").mb-5
       .row.justify-content-around(titulo="1. Servidor")
         .col-lg-7.mb-4.mb-lg-0
           p.mb-0 Es un equipo de cómputo que presta sus servicios a otros equipos que están conectados a él, de manera física o virtual, a través de la red de Internet, donde se alojan sitios #[em web], aplicaciones y archivos que son almacenados sin importar su formato (html, .css, .js, .jpg, etc.).       
@@ -58,7 +58,7 @@
             img(src='@/assets/curso/temas/t1/t1_06.svg', alt='')
 
     .row.justify-content-center
-      .col-lg-8.mb-4.mb-lg-0(data-aos="fade")
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-left")
         p.mb-0 De acuerdo con lo anterior, el modelo #[span.clr--blue.bold cliente/servidor] es una configuración arquitectónica de elementos, que se lleva a cabo en el entorno de la #[em web]. Dichos elementos se componen de equipos o dispositivos que operan los usuarios, equipos servidores con funciones especiales, que prestan servicios a los clientes de manera remota, y redes de Internet que se encargan de establecer la comunicación entre unos y otros respectivamente. Este modelo constituye, entonces, un sistema en el cual se distribuye una infraestructura de elementos, donde los datos parten, hacen un recorrido, se procesan y regresan convertidos en información útil.
       .col-lg-4.col-8(data-aos="zoom-in")
         figure
@@ -177,11 +177,11 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/ygzDmMLAoGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)       
     
     .row.justify-content-center.mb-5
-      .col-lg-5.col-12.mb-4.mb-lg-0
+      .col-lg-5.col-12.mb-4.mb-lg-0(data-aos="zoom-in")
         .bg--gray.hg-100.p-4.p-lg-0
           figure.vh-50
             img(src="@/assets/curso/temas/t1/t1_13.svg", alt="alt").img350.m-auto 
-      .col-lg-7
+      .col-lg-7(data-aos="flip-left")
         .bg--blue.p-4
           p.mb-0 El #[em Frontend] es entonces la forma de funcionamiento del cliente dentro del ciclo de interacción cliente-servidor-cliente, y se lleva a cabo en el navegador en el que se ejecutan el lenguaje de etiquetas HTML, para estructurar y organizar el contenido de la #[em web], el lenguaje de código de estilo CSS, para darle el formato visual al contenido, y el lenguaje de programación JavaScript, que contiene los scripts que, al ser activados a través de una petición, conectan al cliente con el servidor.
 
@@ -235,7 +235,7 @@
             
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/t1/t1_16.svg', alt='')
+              img(src='@/assets/curso/temas/t1/t1_16A.svg', alt='')
 
         .row.justify-content-around.p-4
           .col-lg-6.mb-4.mb-lg-0             
@@ -260,7 +260,7 @@
         .col-lg-4.order-2.order-lg-1.col-8(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/t1/t1_18.png', alt='')
-        .col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade")
+        .col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
           p El servidor #[em web] es un dispositivo de #[em hardware] que dispone de herramientas de #[em software] para establecer comunicación con el cliente y las bases de datos de la #[em web]. Para que el servidor pueda seguir con el ciclo de interacción que ha iniciado el cliente en la #[em web], requiere de #[em software] compuesto por lenguajes de código que procesen los datos enviados y que se conecte con las bases de datos para devolver la respuesta a la petición. A esta forma de funcionamiento del servidor se le llama #[em #[strong Backend]]. 
           p.mb-0 El #[em #[strong Backend]] es entonces la forma de funcionamiento del servidor #[em web] dentro del ciclo de interacción cliente-servidor-cliente, en el que se lleva a cabo el procesamiento de los datos que recibe utilizando lenguajes de código (Java, PHP, Python y Node Js, entre los más conocidos), para conectar al cliente con las bases datos que solicita. 
 
@@ -268,8 +268,30 @@
           .bg--blue02.p-4
             p.mb-0 A diferencia del #[em #[strong Frontend]] que se ejecuta en el navegador, de manera visible para el usuario, el #[em #[strong Backend]] se ejecuta en el servidor #[em web], de manera invisible para este, ya que no tiene forma de comprobar los procesos que realiza para proveer los servicios de las bases de datos que le son solicitados. 
 
-      figure.mb-5(data-aos="zoom-in")
-        img(src='@/assets/curso/temas/t1/t1_19.svg', alt='')
+      .row.justify-content-center.mb-5
+        .col-lg-3.col-6.mb-4.mb-lg-0
+          figure.mb-4(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/t1/t1_19A.svg', alt='')
+          .bg--grayBlue.text-center.p-4
+            h4 Navegador            
+        .col-lg-3.col-6.mb-4.mb-lg-0
+          figure.mb-4(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/t1/t1_19B.svg', alt='')
+          .bg--grayBlue.text-center.p-4
+            h4 #[em Frontend]
+            p.mb-0 HTML, CSS, JavaScript
+        .col-lg-3.col-6
+          figure.mb-4(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/t1/t1_19C.svg', alt='')
+          .bg--grayBlue.text-center.p-4
+            h4 #[em Backend]
+            p.mb-0 Sistema operativo<br>(Linux, Windows, iOS, etc.)
+        .col-lg-3.col-6
+          figure.mb-4(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/t1/t1_19D.svg', alt='')
+          .bg--grayBlue.text-center.p-4
+            h4 Base de datos
+            p.mb-0 MySQL, MongoDB, Oracle, Etc.
 
       p.mb-5(data-aos="fade") En la figura, se observa el recorrido que debe hacer el cliente para poder conectarse con las bases de datos de un servidor: primero tiene que pasar, a través del navegador, por el #[em #[strong Frontend]], cuyas tecnologías son el HTML, CSS, JavaScript; seguir a través del #[em #[strong Backend]], el cual recibe los datos y los procesa con tecnologías como el sistema operativo #[em #[strong (Linux, Windows, iOS, etc.)]] y los lenguajes de programación #[em #[strong (Java, Node Js, PHP, Python, etc.)]]; para finalmente enviarlos a las bases de datos #[em #[strong (MySQL, MongoDB, Oracle, etc.).]] Es claro entonces que el cliente no puede acceder a las bases de datos directamente, sino a través del #[em #[strong Backend]], además, no puede acceder a toda la base de datos, sino a la información específica que está solicitando. Esto quiere decir que el #[em #[strong Backend]] actúa como un filtro que direcciona al cliente hacia los datos que está buscando en el servidor de bases de datos.
 

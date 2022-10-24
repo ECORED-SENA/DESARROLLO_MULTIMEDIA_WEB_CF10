@@ -52,10 +52,12 @@
 
     p.text-center.mb-5(data-aos="fade") A continuación, observe un ejemplo de una maquetación simple:
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-8
-        figure
-          img(src="@/assets/curso/temas/t3/t3_05.jpg", alt="alt")
+
+    .bg_img_04
+      .row.justify-content-center.mb-5(data-aos="zoom-in")
+        .col-lg-8
+          figure
+            img(src="@/assets/curso/temas/t3/t3_05.jpg", alt="alt")
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
