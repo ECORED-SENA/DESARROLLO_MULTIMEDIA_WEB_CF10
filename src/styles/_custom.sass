@@ -246,6 +246,16 @@
     font-weight: 600
     line-height: 0.5 
 
+.circle_ol
+  position: relative
+  &::before
+    position: absolute
+    content: attr(data-a)
+    padding: 0.25em 0.65em
+    background-color: rgb(251,140,0)
+    font-weight: 700
+    border-radius: 999px
+
 .numerCard
   position: relative
   background-color:#F6F6F6

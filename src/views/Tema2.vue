@@ -488,21 +488,23 @@
                 figure
                   img(src="@/assets/curso/temas/t2/t2_28.jpg", alt="alt")
 
-          p.bold.mb-4(data-aos="fade") Para instalar un plugin desde la interfaz de WordPress, se deben seguir los siguientes pasos: 
+          p.bold.mb-4(data-aos="fade") Para instalar un plugin desde la interfaz de WordPress, se deben seguir los siguientes pasos:
 
-          ol.lista-ol--cuadro.mb-5
-            li 
-              .lista-ol--cuadro__vineta.brad_circle.bg--orange
-                span A
-              | En la barra de herramientas del administrador WordPress, seleccionar #[em.ms-2 plugins] – dar añadir.
-            li 
-              .lista-ol--cuadro__vineta.brad_circle.bg--orange
-                span B
-              | En el buscador, escribir el nombre o palabra clave del plugin.
-            li.mb-0
-              .lista-ol--cuadro__vineta.brad_circle.bg--orange
-                span C
-              | Dar clic al botón instalar. Una vez instalado, este mismo botón se activa – dar clic.
+          .row.mb-4
+            .col-auto.me-4 
+              .circle_ol(data-a="A")
+            .col
+              p.mb-0  En la barra de herramientas del administrador WordPress, seleccionar #[em plugins] - dar añadir.
+          .row.mb-4
+            .col-auto.me-4
+              .circle_ol(data-a="B")
+            .col
+              p.mb-0  En el buscador, escribir el nombre o palabra clave del #[em plugin].
+          .row.mb-4
+            .col-auto.me-4
+              .circle_ol(data-a="C")
+            .col
+              p.mb-0  Dar clic al botón instalar. Una vez instalado, este mismo botón se activa - dar clic.         
 
           p Después de activar el plugin, se deberá comprobar si se necesita realizar algún ajuste, o si el plugin viene ya configurado para ser utilizado sin necesidad de modificar algún parámetro.    
 
