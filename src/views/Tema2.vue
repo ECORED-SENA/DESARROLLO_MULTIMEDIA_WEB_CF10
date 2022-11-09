@@ -64,16 +64,15 @@
                 p.mb-0 #[strong.clr--blue &lt;/audio&gt;]
 
 
-          p.mb-0 Las etiquetas #[strong &lt;audio&gt;] y #[strong &lt;/audio&gt;] indican que lo que se va a incrustar en el proyecto es un audio; la etiqueta source src indica la fuente del audio que en este caso ese denomina eclipse.ogg la instrucción Type da cuenta del tipo de formato del audio y al igual que en video, no todos los formatos son compatibles con la versión del navegador que se está utilizando, para lo cual se debe incluir un mensaje que lo indique.
+          p.mb-0 Las etiquetas #[strong &lt;audio&gt;] y #[strong &lt;/audio&gt;] indican que lo que se va a incrustar en el proyecto es un audio; la etiqueta source src indica la fuente del audio que en este caso se denomina eclipse.ogg, la instrucción Type da cuenta del tipo de formato del audio y al igual que en video, no todos los formatos son compatibles con la versión del navegador que se está utilizando, para lo cual se debe incluir un mensaje que lo indique.
 
         .tarjeta.tabs-a__tab_02.p-4(titulo="Integrar animación")
           h4.mb-4 Integrar animación
           .row.mb-4
             .col-auto
               .bg--white.brad_01.p-4
-                p.mb-0 #[strong.clr--blue &lt;audio&gt;]
-                p.mb-0 #[strong.clr--blue &lt; source src =] "eclipse.ogg" #[strong.clr--blue Type=] "audio/ogg"#[strong.clr--blue &gt;]
-                p.mb-0 #[strong.clr--blue &lt;/audio&gt;]
+                p.mb-0 #[strong.clr--blue &lt;img src =] "pancho.gif" #[strong.clr--blue height =] "50px" #[strong.clr--blue width =] "50px" #[strong.clr--blue &gt;]
+              
 
           p.mb-0 Generalmente, las animaciones están creadas en formatos #[strong GIF], o desarrolladas en JavaScript o Adobe. En este caso, como #[strong “pancho.gif”] es una imagen en movimiento, se utiliza la misma etiqueta de imágenes, indicando alto #[strong #[em height]] de 50 pixeles y ancho #[strong #[em width]] de 50 pixeles. Aquí también es importante tener en cuenta los formatos, para que las animaciones se puedan ver en los navegadores sin presentar inconvenientes.
 
@@ -555,7 +554,7 @@
               figure
                 img(src="@/assets/curso/temas/t2/t2_30.png", alt="alt")
 
-          .row(titulo="Acceda al autoinstalador").px-0.px-lg-5.pb-4
+          .row(titulo="Diligenciar formulario de instalación").px-0.px-lg-5.pb-4
             .col-lg-6.mb-4.mb-md-0
               .bg--blue.p-lg-4.p-3
                 p.bold Se solicitará llenar un formulario de instalación:
@@ -585,7 +584,7 @@
                     i.clr--base.fas.fa-search-plus
                     .indicador--click(v-if="mostrarIndicador")
 
-          .row(titulo="Acceda al autoinstalador").px-0.px-lg-5
+          .row(titulo="Mensaje de instralación exitosa").px-0.px-lg-5
             .col-lg-6.mb-4.mb-md-0
               .bg--blue.p-4
                 p.bold Al completar la instalación, se verá un mensaje de instalación exitosa. 
@@ -600,11 +599,10 @@
                     i.clr--base.fas.fa-search-plus
                     .indicador--click(v-if="mostrarIndicador")
 
-          .row(titulo="Acceda al autoinstalador").px-0.px-lg-5
+          .row(titulo="Ingresar al escritorio Drupal").px-0.px-lg-5
             .col-lg-6.mb-4.mb-md-0
               .bg--blue.p-4
                 p.mb-0 La instalación de Drupal ha sido completada para ingresar al escritorio Drupal y comenzar a crear la página y administrar el contenido. 
-
                         
             .col-md-6
               figure

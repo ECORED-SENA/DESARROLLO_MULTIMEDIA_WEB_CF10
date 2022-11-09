@@ -154,8 +154,7 @@
             img(src="@/assets/curso/temas/t3/t3_13.png", alt="alt").img350.m-auto
         .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
           h4 Seguir las mejores prácticas de SEO         
-          p Si un sitio #[em web] tiene una apariencia innovadora y agradable, pero nadie lo ve, no es efectivo. Los sitios #[em web] bien diseñados atraen y convierten a los visitantes en clientes. Por esta misma razón, el diseño #[em web] debe seguir las mejores prácticas de SEO, para garantizar que el sitio #[em web] aparezca para el mercado objetivo.
-          p.mb-0 Si bien la lista de mejores prácticas de SEO para el diseño #[em web] puede ser bastante larga, algunas buenas acciones son:
+          p Si un sitio #[em web] tiene una apariencia innovadora y agradable, pero nadie lo ve, no es efectivo. Los sitios #[em web] bien diseñados atraen y convierten a los visitantes en clientes. Por esta misma razón, el diseño #[em web] debe seguir las mejores prácticas de SEO, para garantizar que el sitio #[em web] aparezca para el mercado objetivo.          
 
       .row
         .col-12 

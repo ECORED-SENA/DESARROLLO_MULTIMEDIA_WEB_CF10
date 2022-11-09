@@ -65,7 +65,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Funcionamiento del cliente en la <em>web – Backend</em> ',
+            titulo: 'Funcionamiento del servidor en la <em>web – Backend</em> ',
             hash: 't_1_4',
           },
           {
@@ -149,17 +149,17 @@ export default {
   },
   complementario: [
     {
-      tema: 'Integración del Frontend y el Backend',
-      referencia: 'Edteam. (2019). ¿Qué son las APIs y para qué sirven?',
+      tema: 'Integración del <em>Frontend</em> y el <em>Backend</em>',
+      referencia: 'Edteam. (2019). ¿Qué es una API y para qué sirve?',
       tipo: 'video',
       link: 'https://www.youtube.com/watch?v=u2Ms34GE14U ',
     },
     {
-      tema: 'Integración del Frontend y el Backend',
+      tema: 'Integración del <em>Frontend</em> y el <em>Backend</em>',
       referencia:
         'Reyes, I. (2020). Arquitectura Aplicación <em>Web - Frontend/Backend</em>',
       tipo: 'video',
-      link: 'https://www.youtube.com/watch?v=u2Ms34GE14U ',
+      link: 'https://www.youtube.com/watch?v=CWJ84RA7LyI ',
     },
     {
       tema: 'Integración Multimedia',
@@ -206,7 +206,7 @@ export default {
     {
       termino: 'Diseño modular',
       significado:
-        'Como su propio nombre lo dice, una página <em>web</em> modular consiste en diagramar cada uno de sus elementos en módulos. Es posible apreciarlo cuando se entra a una página web con varios bloques que interactúan con el usuario, ya sea que ese bloque se haga más grande, se ilumine mientras se pone el cursor sobre ellos o, inclusive, se oscurezca un poco y dé la opción de guardar, tal como lo hace Pinterest.Este diseño modular está pensado mucho en el comportamiento actual de las personas, ya que, como consumidores, se busca la manera más rápida de encontrar los servicios de una <em>web</em>, y normalmente se hace a través de los celulares. (Guerrero, 2018).',
+        'Como su propio nombre lo dice, una página <em>web</em> modular consiste en diagramar cada uno de sus elementos en módulos. Es posible apreciarlo cuando se entra a una página web con varios bloques que interactúan con el usuario, ya sea que ese bloque se haga más grande, se ilumine mientras se pone el cursor sobre ellos o, inclusive, se oscurezca un poco y dé la opción de guardar, tal como lo hace Pinterest. Este diseño modular está pensado mucho en el comportamiento actual de las personas, ya que, como consumidores, se busca la manera más rápida de encontrar los servicios de una <em>web</em>, y normalmente se hace a través de los celulares. (Guerrero, 2018).',
     },
     {
       termino: '<em>Front-end</em>',

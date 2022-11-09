@@ -270,26 +270,27 @@
 
       .row.justify-content-center.mb-5
         .col-lg-3.col-6.mb-4.mb-lg-0
-          figure.mb-4(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/t1/t1_19A.svg', alt='')
-          .bg--grayBlue.text-center.p-4
+          .bg--grayBlue.text-center.p-4           
+            figure.mb-4(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/t1/t1_19A.svg', alt='')            
             h4 Navegador            
         .col-lg-3.col-6.mb-4.mb-lg-0
-          figure.mb-4(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/t1/t1_19B.svg', alt='')
           .bg--grayBlue.text-center.p-4
+            figure.mb-4(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/t1/t1_19B.svg', alt='')            
             h4 #[em Frontend]
             p.mb-0 HTML, CSS, JavaScript
         .col-lg-3.col-6
-          figure.mb-4(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/t1/t1_19C.svg', alt='')
           .bg--grayBlue.text-center.p-4
+            figure.mb-4(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/t1/t1_19C.svg', alt='')            
             h4 #[em Backend]
-            p.mb-0 Sistema operativo<br>(Linux, Windows, iOS, etc.)
+            p.mb-2 Sistema operativo<br>(Linux, Windows, iOS, etc.)
+            p.mb-0 Lenguajes de programación<br>(Java, Node js, PHP, Phyton, etc.)
         .col-lg-3.col-6
-          figure.mb-4(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/t1/t1_19D.svg', alt='')
           .bg--grayBlue.text-center.p-4
+            figure.mb-4(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/t1/t1_19D.svg', alt='')            
             h4 Base de datos
             p.mb-0 MySQL, MongoDB, Oracle, Etc.
 
